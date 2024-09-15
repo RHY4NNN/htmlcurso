@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        /*
+        #= id
+        .= class
+        :=  pseudo-class
+        ::= pseudo-element
+        >= children
+
+
+
+
+
+
+
+        */
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+        a{
+            color: red;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:visited{
+            color: darkred;
+        }
+        a:hover{
+            color: violet;
+            text-decoration: underline;
+        }
+        a:active{
+            color: yellow;
+        }
+
+        .especial::after{
+            content: "[link]";
+            color: chartreuse;
+        }
+    </style>
+</head>
+<body>
+    <h1>personalizando links</h1>
+    <nav>
+        <li><a href="https://www.youtube.com/watch?v=vMlrcOVr7po&list=PLHz_AreHm4dlUpEXkY1AyVLQGcpSgVF8s&index=24" target="_blank">Repositorio</a></li>
+        <a href="https://www.youtube.com/watch?v=TNbV2EwA3q8&list=PL6846F4C75FFBA3EC&index=16" class="especial">COISA</a></li>
+        <li><a href="http://127.0.0.1:5500/ex020/pseudoclasse.html">ATS</a>
+    </nav>
+        
+    
+    
+</body>
+</html>
