@@ -56,7 +56,6 @@ header>p{
     padding-right: 10px;
     padding-left: 10px;
     margin: auto;
-    
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.205);
 
 }
@@ -153,7 +152,7 @@ div.video > iframe{
 
 }
 .link{
-    width: 1.5%;
+    width: 1em;
 }
 aside{
     background-color: var(--cor1);
