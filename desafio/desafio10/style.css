@@ -152,7 +152,7 @@ div.video > iframe{
 
 }
 .link{
-    width: 1em;
+    width: 0.8em;
 }
 aside{
     background-color: var(--cor1);
